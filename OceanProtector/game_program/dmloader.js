@@ -1,7 +1,3 @@
-// file downloader
-// wraps XMLHttpRequest and adds retry support and progress updates when the
-// content is gzipped (gzipped content doesn't report a computable content length
-// on Google Chrome)
 var FileLoader = {
   options: {
     retryCount: 4,
